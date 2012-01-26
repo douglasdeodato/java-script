@@ -1,0 +1,1 @@
+location.replace("http://www.douglasdeodato.com");
