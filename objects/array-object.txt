@@ -1,0 +1,33 @@
+font:w3schools.com
+JavaScript Array Object
+Array Object Properties
+
+
+##################################
+JavaScript constructor Property
+http://www.w3schools.com/jsref/jsref_constructor_array.asp
+
+Definition and Usage
+
+The constructor property returns the function that created the array object's prototype.
+
+
+##################################
+JavaScript length Property
+http://www.w3schools.com/jsref/jsref_length_array.asp
+
+Definition and Usage
+
+The length property sets or returns the number of elements in an array.
+
+
+
+##################################
+JavaScript prototype Property
+http://www.w3schools.com/jsref/jsref_prototype_array.asp
+
+Definition and Usage
+
+The prototype property allows you to add properties and methods to any object.
+
+Note: Prototype is a global property which is available with almost all JavaScript objects.
