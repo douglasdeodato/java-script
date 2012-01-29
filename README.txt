@@ -1,0 +1,1 @@
+i try show here some simple examples in javascript for beginners.
