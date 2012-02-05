@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>  this </title>
+
+<script type="text/javascript">
+var calculator = {
+	
+	op1:0,
+	op2:0,
+	
+	add: function(){
+		return this.op1 + this.op2;
+	},
+	subtract: function(){
+		return this.op1 - this.op2;
+	}
+	
+};
+calculator.op1 = 10;
+calculator.op2 = 30;
+console.log(calculator.add());
+
+</script>
+</head>
+
+
+
+<body>
+	
+	
+	
+	</body>
+
+
+
+
+</html>
