@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<title> call and apply </title>
+
+<script type="text/javascript">
+var doubleNumber = function(){
+	
+	return this.number * 2;
+	
+};
+
+var obj = {number: 100};
+console.log(doubleNumber.call(obj));
+console.log(doubleNumber.apply(obj));
+
+var n1 = 10;
+var n2 = 20;
+var n3 = 90;
+
+var max = Math.max(n1,n2,n3);
+console.log(max);  //90
+
+max = Math.max.call(Math, n1, n2, n3);
+console.log(max);
+
+max = Math.max.apply(Math, [n1,n2,n3]);
+console.log(max);
+
+
+</script>
+</head>
+
+
+
+<body>
+	
+	
+	
+	</body>
+
+
+
+
+</html>
