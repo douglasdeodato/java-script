@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>arguments </title>
+	
+	<script type="text/javascript">
+	
+	var  fun = function(){
+		
+		for( var i = 0; i < arguments.length; i ++){
+			console.log(arguments[i]);
+			
+		}
+	};
+	
+	fun(1,2,3,4,5,6);
+	
+	var fun = function(a,b,c){
+		console.log(a);
+		console.log(b);
+		console.log(c);
+		
+		for ( var i =0; i < arguments.length; i ++){
+			
+			console.log(arguments[i]);
+		}
+		
+		
+	};
+	
+	fun(1,2,3,4); //1 2 3 1 2 3 4
+	fun(1,2);
+	
+
+	
+	
+	
+	</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		
+		
+		</body>
+	
+	
+
+
+</html>
