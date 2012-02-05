@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title>  this </title>
+
+<script type="text/javascript">
+
+/* 
+var obj = {
+	fun: function(){
+		console.log(this);
+	}
+};
+
+obj.fun();
+
+*/
+
+var person1= {age:40, name: "antonio"};
+var person2= {age:50, name: "josefina"};
+
+function personPrint(){
+	
+	console.log("meu nome é " + this.name + " e tenho" + this.age + "anos.");
+	console.log(this);
+	
+}
+person1.print = personPrint;
+person2.print = personPrint;
+
+person1.print();
+person2.print();
+
+//this pega quem é o dono da funcao.w
+
+
+
+</script>
+</head>
+
+
+
+<body>
+	
+	
+	
+	</body>
+
+
+
+
+</html>
